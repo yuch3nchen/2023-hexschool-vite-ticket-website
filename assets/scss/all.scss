@@ -1,11 +1,28 @@
+//Vendors
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@300;400;500;700&family=Yeseva+One&display=swap");
+
+//Icons
+@import "./icofont/icofont.min.css";
+
+//Functions
 @import "../../node_modules/bootstrap/scss/functions";
-@import './utils/variables';
 
+//Variables
+@import "./utils/variables";
 
-@import './layout/header.scss';
-@import './layout/footer.scss';
+//Base
+@import "./base/font";
 
+//Layout
+@import "./layout/header.scss";
+@import "./layout/footer.scss";
 
-@import './pages/index.scss';
+//Pages
+@import "./pages/index.scss";
 
+//Bootstrap default
 @import "../../node_modules/bootstrap";
+
+//Utils
+@import "./utils/utilities";
+@import "../node_modules/bootstrap/scss/utilities/api";

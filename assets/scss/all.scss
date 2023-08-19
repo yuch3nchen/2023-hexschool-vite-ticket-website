@@ -17,12 +17,12 @@
 @import "./layout/header.scss";
 @import "./layout/footer.scss";
 
-//Pages
-@import "./pages/index.scss";
-
 //Bootstrap default
 @import "../../node_modules/bootstrap";
 
 //Utils
 @import "./utils/utilities";
 @import "../node_modules/bootstrap/scss/utilities/api";
+
+//Components
+@import "./components/logo";

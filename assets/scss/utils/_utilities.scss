@@ -187,6 +187,18 @@ $utilities: map-merge(
           auto: auto,
         ),
       ),
+    "width-custom": (
+      property: width,
+      responsive: true,
+      class: w,
+      values: (
+        25: 25%,
+        50: 50%,
+        75: 75%,
+        100: 100%,
+        auto: auto,
+      ),
+    ),
     "max-width": (
       property: max-width,
       class: mw,
@@ -198,6 +210,8 @@ $utilities: map-merge(
       property: width,
       class: vw,
       values: (
+        25: 25vw /* *custom */,
+        50: 50vw /* *custom */,
         100: 100vw,
       ),
     ),
@@ -539,6 +553,13 @@ $utilities: map-merge(
       ),
     "font-size": (
       rfs: true,
+      property: font-size,
+      class: fs,
+      values: $font-sizes,
+    ),
+    "font-size-custom": (
+      rfs: true,
+      responsive: true,
       property: font-size,
       class: fs,
       values: $font-sizes,

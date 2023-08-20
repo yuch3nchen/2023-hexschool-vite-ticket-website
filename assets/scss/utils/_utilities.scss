@@ -762,8 +762,17 @@ $utilities: map-merge(
           visible: visible,
           invisible: hidden,
         ),
+      ),
+    // scss-docs-end utils-visibility
+    "letter-spacing": // *custom
+    (
+        property: letter-spacing,
+        class: ls,
+        values: (
+          normal: normal,
+          1: 1.2px,
+        ),
       )
-      // scss-docs-end utils-visibility
   ),
   $utilities
 );

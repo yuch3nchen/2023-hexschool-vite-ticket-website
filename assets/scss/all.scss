@@ -14,8 +14,6 @@
 @import "./base/font";
 
 //Layout
-@import "./layout/header.scss";
-@import "./layout/footer.scss";
 
 //Bootstrap default
 @import "../../node_modules/bootstrap";
@@ -26,3 +24,4 @@
 
 //Components
 @import "./components/logo";
+@import "./components/banner";

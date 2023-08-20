@@ -1,0 +1,12 @@
+.banner {
+  background: url(../images/event/13.jpg) no-repeat;
+  height: 351px;
+  background-size: cover;
+  background-position: center;
+  &-text {
+    width: 70%;
+  }
+  @include media-breakpoint-up(md) {
+    height: 518px;
+  }
+}

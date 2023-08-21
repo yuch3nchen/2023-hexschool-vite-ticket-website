@@ -1,61 +1,63 @@
-<nav class="navbar navbar-expand-lg bg-body py-7 container">
-  <div class="container-fluid">
-    <h1>
-      <a class="logo fs-5 d-flex align-items-center" href="index.html"
-        ><img src="/assets/images/logo.png" alt="logo" />
-        <p class="ms-0 ms-md-5 d-none d-md-flex align-items-center">
-          7TAO
-          <span class="noto-serif-tc fs-7 ms-1 d-none d-xl-block"
-            >活動訂票網</span
-          >
-        </p></a
-      >
-    </h1>
-    <form class="d-flex input-group w-50 w-lg-25 ms-lg-11 mb-lg-0">
-      <input
-        type="text"
-        class="form-control py-2 ps-3 py-lg-5 ps-lg-7 noto-sans-tc"
-        placeholder="探索活動"
-        aria-label="探索活動"
-        aria-describedby="button-search"
-      />
+<div class="header border-bottom border-3 border-primary">
+  <nav class="navbar navbar-expand-lg bg-body py-7 container">
+    <div class="container-fluid">
+      <h1>
+        <a class="logo fs-5 d-flex align-items-center" href="index.html"
+          ><img src="/assets/images/logo.png" alt="logo" />
+          <p class="ms-0 ms-md-5 d-none d-md-flex align-items-center">
+            7TAO
+            <span class="noto-serif-tc fs-7 ms-1 d-none d-xl-block"
+              >活動訂票網</span
+            >
+          </p></a
+        >
+      </h1>
+      <form class="d-flex input-group w-50 w-lg-25 ms-lg-11 mb-lg-0">
+        <input
+          type="text"
+          class="form-control py-2 ps-3 py-lg-5 ps-lg-7 noto-sans-tc border-primary"
+          placeholder="探索活動"
+          aria-label="探索活動"
+          aria-describedby="button-search"
+        />
+        <button
+          class="btn btn-dark text-theme-2 p-lg-5"
+          type="button"
+          id="button-search"
+        >
+          <i class="icofont-search-1 fs-7 fs-lg-6"></i>
+        </button>
+      </form>
       <button
-        class="btn btn-dark text-theme-2 p-lg-5"
+        class="navbar-toggler"
         type="button"
-        id="button-search"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
       >
-        <i class="icofont-search-1 fs-7 fs-lg-6"></i>
+        <span class="navbar-toggler-icon"></span>
       </button>
-    </form>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div
-      class="collapse navbar-collapse ms-lg-11 ms-0"
-      id="navbarSupportedContent"
-    >
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-6">
-        <li class="nav-item">
-          <a class="nav-link px-7 px-lg-3" aria-current="page" href="#">
-            <i class="icofont-ui-file"></i>
-            REGISTER
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link px-7 px-lg-3" href="#">
-            <i class="icofont-search-1"></i>
-            LOGIN
-          </a>
-        </li>
-      </ul>
+      <div
+        class="collapse navbar-collapse ms-lg-11 ms-0"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-6">
+          <li class="nav-item">
+            <a class="nav-link px-7 px-lg-3" aria-current="page" href="#">
+              <i class="icofont-ui-file"></i>
+              REGISTER
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-7 px-lg-3" href="#">
+              <i class="icofont-search-1"></i>
+              LOGIN
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
+</div>

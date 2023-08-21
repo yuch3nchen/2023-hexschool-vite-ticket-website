@@ -3,6 +3,12 @@
   height: 351px;
   background-size: cover;
   background-position: center;
+  &-title {
+    width: 42%;
+    @include media-breakpoint-up(md) {
+      width: 100%;
+    }
+  }
   &-text {
     width: 70%;
   }

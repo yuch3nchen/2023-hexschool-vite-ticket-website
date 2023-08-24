@@ -13,10 +13,7 @@
     }
     &.more {
       color: $theme-2;
-      &:hover {
-        background-color: transparent;
-        color: $primary;
-      }
+      @include hover-fill(transparent, $primary);
     }
   }
 }

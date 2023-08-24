@@ -1,0 +1,11 @@
+.bg-event {
+  &-online {
+    background: url(../images/event/online.jpg) no-repeat;
+    background-position-y: 30%;
+    background-size: cover;
+    height: 160px;
+    @include media-breakpoint-up(lg) {
+      height: 100%;
+    }
+  }
+}

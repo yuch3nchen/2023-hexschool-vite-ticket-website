@@ -1,0 +1,27 @@
+//錯誤訊息樣式
+.invalid-feedback {
+  color: #c96464;
+}
+
+//input:focus樣式，包含驗證後
+.form-control:focus,
+.was-validated .form-control:valid,
+.was-validated .form-control:valid:focus,
+.was-validated .form-control:invalid,
+.was-validated .form-control:invalid:focus {
+  background: transparent;
+  box-shadow: none;
+}
+
+//驗證成功
+.form-control:focus,
+.was-validated .form-control:valid,
+.was-validated .form-control:valid:focus {
+  border-color: inherit;
+}
+
+//驗證失敗
+.was-validated .form-control:invalid,
+.was-validated .form-control:invalid:focus {
+  border-color: #c96464;
+}

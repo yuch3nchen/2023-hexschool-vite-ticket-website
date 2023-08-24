@@ -3,3 +3,22 @@
     text-decoration: underline;
   }
 }
+
+@mixin hover-fill($bg-color, $color) {
+  &:hover {
+    background-color: $bg-color;
+    color: $color;
+  }
+}
+
+@mixin hover-theme {
+  &:hover {
+    color: $theme-2;
+  }
+}
+
+@mixin hover-shadow {
+  &:hover {
+    box-shadow: 0 0.5rem 1rem rgba($black, 0.15);
+  }
+}

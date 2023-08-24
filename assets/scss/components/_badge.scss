@@ -1,0 +1,19 @@
+.badge {
+  position: relative;
+  &-item {
+    color: $primary;
+    @include hover-fill($primary, #fff);
+    &::before {
+      content: "";
+      position: absolute;
+      width: 4px;
+      background-color: $primary;
+      top: -1px;
+      bottom: -1px;
+      left: -1px;
+    }
+    &:hover::before {
+      background-color: $theme-2;
+    }
+  }
+}

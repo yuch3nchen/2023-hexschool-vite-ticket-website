@@ -1,0 +1,14 @@
+.swiper {
+  background-color: #000;
+  &-wrapper {
+    transition-timing-function: linear;
+  }
+  &-slide {
+    letter-spacing: 1.6px;
+    width: auto;
+    color: $theme-2;
+    @include media-breakpoint-up(lg) {
+      letter-spacing: 3.2px;
+    }
+  }
+}

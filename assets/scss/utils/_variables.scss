@@ -621,8 +621,10 @@ $font-sizes: (
   3: $font-size-base * 3,
   4: $font-size-base * 2,
   5: $font-size-base * 1.5,
-  6: $font-size-base * 1.125,
-  7: $font-size-base * 1,
+  6: $font-size-base * 1.25,
+  7: $font-size-base * 1.125,
+  8: $font-size-base * 1,
+  9: $font-size-base * 0.875,
 ) !default; // *custom
 // scss-docs-end font-sizes
 

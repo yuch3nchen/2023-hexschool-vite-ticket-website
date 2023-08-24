@@ -772,6 +772,15 @@ $utilities: map-merge(
           normal: normal,
           1: 1.2px,
         ),
+      ),
+    "object-fit": // *custom
+    (
+        property: object-fit,
+        class: object-fit,
+        values: (
+          cover: cover,
+          contain: contain,
+        ),
       )
   ),
   $utilities

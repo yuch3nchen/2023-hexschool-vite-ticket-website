@@ -134,7 +134,7 @@
             </li>
             <li class="col">
               <a
-                href="#"
+                href="event.html"
                 class="btn btn-primary icon-menu more d-flex flex-column align-items-center justify-content-center py-6 py-lg-9 h-100 border border-2 border-primary"
               >
                 <p class="noto-serif-tc fs-5 fs-md-3 fw-bold lh-sm">
@@ -146,16 +146,20 @@
         </section>
         <!-- recent -->
         <section class="mb-8 mb-lg-12">
-          <%-
-          include('./layout/section-title',{titleEng:"Recent",titleTW:"近期活動"})%>
+          <div class="mb-7 mb-md-8">
+            <%-
+            include('./layout/section-title',{titleEng:"Recent",titleTW:"近期活動"})%>
+          </div>
           <ul class="row row-cols-1 row-cols-lg-3 g-7 list-unstyled">
             <%- include('./layout/recent-section'); -%>
           </ul>
         </section>
         <!-- online -->
         <section class="mb-8 mb-lg-12">
-          <%-
-          include('./layout/section-title',{titleEng:"Online",titleTW:"線上活動"})%>
+          <div class="mb-7 mb-md-8">
+            <%-
+            include('./layout/section-title',{titleEng:"Online",titleTW:"線上活動"})%>
+          </div>
           <div class="row event">
             <div class="col-lg-7 mb-5 mb-lg-0">
               <div class="bg-event-online"></div>

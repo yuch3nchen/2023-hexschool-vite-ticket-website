@@ -1,6 +1,0 @@
-header {
-  border-bottom: 2px solid $primary;
-  @include media-breakpoint-up(lg) {
-    border-bottom: 3px solid $primary;
-  }
-}
